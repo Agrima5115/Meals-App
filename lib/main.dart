@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 final theme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
-      seedColor: Color.fromARGB(255, 38, 42, 85),
+      seedColor: const Color.fromARGB(255, 38, 42, 85),
       brightness: Brightness.dark),
   textTheme: GoogleFonts.latoTextTheme(),
 );
@@ -31,5 +31,3 @@ class App extends StatelessWidget {
     );
   }
 }
-
-//const Color.fromARGB(255, 131, 57, 0)

@@ -6,69 +6,48 @@ const availableCategories = [
   Category(
     id: 'c1',
     title: 'Italian',
-    // color: Colors.purple,
     color: Color.fromARGB(255, 38, 42, 85),
   ),
   Category(
     id: 'c2',
     title: 'Quick & Easy',
-    // color: Colors.red,
-    // color: Color.fromARGB(255, 255, 204, 0),
     color: Color.fromARGB(255, 38, 42, 85),
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
-    // color: Colors.orange,
     color: Color.fromARGB(255, 62, 128, 150),
   ),
   Category(
     id: 'c4',
     title: 'German',
-    // color: Colors.amber,
-    // color: Color.fromARGB(255, 223, 95, 48),
     color: Color.fromARGB(255, 62, 128, 150),
   ),
   Category(
     id: 'c5',
     title: 'Light & Lovely',
-    // color: Colors.blue,
     color: Color.fromARGB(255, 153, 211, 250),
   ),
   Category(
-    id: 'c6',
-    title: 'Exotic',
-    // color: Colors.green,
-    // color: Color.fromARGB(255, 230, 230, 250),
-    color: Color.fromARGB(255, 153, 211, 250)
-  ),
+      id: 'c6', title: 'Exotic', color: Color.fromARGB(255, 153, 211, 250)),
   Category(
     id: 'c7',
     title: 'Breakfast',
-    // color: Colors.lightBlue,
-    // color: Color.fromARGB(255, 209, 119, 40),
-    
     color: Color.fromARGB(255, 118, 182, 241),
-
   ),
   Category(
     id: 'c8',
     title: 'Asian',
-    // color: Colors.lightGreen,
-    
     color: Color.fromARGB(255, 118, 182, 241),
   ),
   Category(
     id: 'c9',
     title: 'French',
-    // color: Colors.pink,
-    // color: Color.fromARGB(255, 255, 147, 15),
     color: Color.fromARGB(255, 76, 160, 244),
   ),
   Category(
     id: 'c10',
     title: 'Summer',
-    // color: Colors.teal,
     color: Color.fromARGB(255, 76, 160, 244),
   ),
 ];
@@ -1433,9 +1412,7 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9YP7U7CT-nXJKiK8yD_hJPA5B-nBjSS-Cg&s',
     duration: 10,
-    ingredients: [
-      'Durian Fruit'
-    ],
+    ingredients: ['Durian Fruit'],
     steps: [
       'Open the durian fruit carefully.',
       'Scoop out the flesh and enjoy its strong, unique flavor.'
@@ -1456,9 +1433,7 @@ const dummyMeals = [
     imageUrl:
         'https://qph.cf2.quoracdn.net/main-qimg-3c9dd48a2afb73c1ee717a489f9110af-lq',
     duration: 7,
-    ingredients: [
-      'Fermented Shark Meat'
-    ],
+    ingredients: ['Fermented Shark Meat'],
     steps: [
       'Prepare the shark meat and ferment it for several months.',
       'Cut into small pieces and serve.'
@@ -1479,12 +1454,7 @@ const dummyMeals = [
     imageUrl:
         'https://www.shutterstock.com/shutterstock/videos/1035536420/thumb/1.jpg?ip=x480',
     duration: 15,
-    ingredients: [
-      'Live Octopus',
-      'Sesame Oil',
-      'Sesame Seeds',
-      'Salt'
-    ],
+    ingredients: ['Live Octopus', 'Sesame Oil', 'Sesame Seeds', 'Salt'],
     steps: [
       'Cut the live octopus into small pieces.',
       'Season with sesame oil, sesame seeds, and salt.',
@@ -1506,10 +1476,7 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-FYDkA5C_EL5JJrGPraqnZ4KLcmCG6lwb7Q&s',
     duration: 10,
-    ingredients: [
-      'Sheep Milk Cheese',
-      'Cheese Flies Larvae'
-    ],
+    ingredients: ['Sheep Milk Cheese', 'Cheese Flies Larvae'],
     steps: [
       'Let the cheese ferment with larvae.',
       'Serve the cheese with bread or crackers.',
@@ -1531,11 +1498,7 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QhwF8FKWvjZWstJM1ghxkTNzTnqEIT1C5Q&s',
     duration: 15,
-    ingredients: [
-      'Scorpions',
-      'Salt',
-      'Oil for Frying'
-    ],
+    ingredients: ['Scorpions', 'Salt', 'Oil for Frying'],
     steps: [
       'Heat oil in a pan.',
       'Fry the scorpions until crispy.',
@@ -1554,14 +1517,9 @@ const dummyMeals = [
     title: 'Witchetty Grubs',
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://c8.alamy.com/comp/BGCJYX/witchety-grub-meal-BGCJYX.jpg',
+    imageUrl: 'https://c8.alamy.com/comp/BGCJYX/witchety-grub-meal-BGCJYX.jpg',
     duration: 20,
-    ingredients: [
-      'Witchetty Grubs',
-      'Oil for Frying',
-      'Salt'
-    ],
+    ingredients: ['Witchetty Grubs', 'Oil for Frying', 'Salt'],
     steps: [
       'Heat oil in a pan.',
       'Fry the witchetty grubs until crispy.',
@@ -1640,12 +1598,7 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYZxvW3ovTwB5VRCY-brPzbInxlE_3f9vnQ&s',
     duration: 10,
-    ingredients: [
-      'Eggs',
-      'Salt',
-      'Pepper',
-      'Butter or Oil for Cooking'
-    ],
+    ingredients: ['Eggs', 'Salt', 'Pepper', 'Butter or Oil for Cooking'],
     steps: [
       'Heat a pan with butter or oil.',
       'Crack the eggs into the pan and cook until the whites are set.',
@@ -1667,9 +1620,7 @@ const dummyMeals = [
     imageUrl:
         'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2Fad4881c2ec9f21cafb7f5d209c83b6849d6b0d23',
     duration: 15,
-    ingredients: [
-      'Bacon Strips'
-    ],
+    ingredients: ['Bacon Strips'],
     steps: [
       'Heat a pan over medium heat.',
       'Add bacon strips and cook until crispy, turning occasionally.',
@@ -1691,9 +1642,7 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkIFsb9p0H2jNiQ7eBNOyFgBVX09CuEhfDw&s',
     duration: 15,
-    ingredients: [
-      'Sausage Links'
-    ],
+    ingredients: ['Sausage Links'],
     steps: [
       'Heat a pan over medium heat.',
       'Add sausages and cook until browned and cooked through.',
@@ -1808,13 +1757,8 @@ const dummyMeals = [
     imageUrl:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJerBTLsc3NdkhzZOrJbrFY52WDFQO3jIZNw&s',
     duration: 5,
-    ingredients: [
-      'Yogurt'
-    ],
-    steps: [
-      'Spoon yogurt into a bowl.',
-      'Add fruit or honey if desired.'
-    ],
+    ingredients: ['Yogurt'],
+    steps: ['Spoon yogurt into a bowl.', 'Add fruit or honey if desired.'],
     isGlutenFree: true,
     isVegan: false,
     isVegetarian: true,
@@ -1859,14 +1803,8 @@ const dummyMeals = [
     imageUrl:
         'https://articles-1mg.gumlet.io/articles/wp-content/uploads/2017/04/shutterstock_304807622.jpg?compress=true&quality=80&w=640&dpr=2.6',
     duration: 5,
-    ingredients: [
-      'Cereal',
-      'Milk'
-    ],
-    steps: [
-      'Pour cereal into a bowl.',
-      'Add milk and enjoy.'
-    ],
+    ingredients: ['Cereal', 'Milk'],
+    steps: ['Pour cereal into a bowl.', 'Add milk and enjoy.'],
     isGlutenFree: false,
     isVegan: false,
     isVegetarian: true,
@@ -1883,9 +1821,7 @@ const dummyMeals = [
     imageUrl:
         'https://www.thespruceeats.com/thmb/RWlJDC93TPg8Q3AMG31O31ZN6h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-fruit-salad-3056969-hero-01-46ec46a61afa49bc80b432c055388648.jpg',
     duration: 10,
-    ingredients: [
-      'Mixed Fresh Fruit'
-    ],
+    ingredients: ['Mixed Fresh Fruit'],
     steps: [
       'Wash and cut fruit into bite-sized pieces.',
       'Mix together and serve.'
@@ -1906,10 +1842,7 @@ const dummyMeals = [
     imageUrl:
         'https://www.seriouseats.com/thmb/_nSWyhg_GmvdjUwMMvX7KG6lYNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/perfect-quick-easy-french-toast-hero-03-2a9485bbb12b4cf5abcfef53aa9accd9.jpg',
     duration: 10,
-    ingredients: [
-      'Bread Slices',
-      'Butter or Jam (optional)'
-    ],
+    ingredients: ['Bread Slices', 'Butter or Jam (optional)'],
     steps: [
       'Toast the bread slices in a toaster or under a broiler.',
       'Spread butter or jam if desired.'
@@ -2124,12 +2057,7 @@ const dummyMeals = [
     imageUrl:
         'https://butfirstchai.com/wp-content/uploads/2021/12/korean-street-toast-recipe.jpg',
     duration: 15,
-    ingredients: [
-      'Bread Slices',
-      '1 Egg',
-      'Butter',
-      'Salt and Pepper'
-    ],
+    ingredients: ['Bread Slices', '1 Egg', 'Butter', 'Salt and Pepper'],
     steps: [
       'Heat butter in a pan.',
       'Place bread in the pan and crack an egg into the center.',
@@ -2204,12 +2132,7 @@ const dummyMeals = [
     imageUrl:
         'https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg',
     duration: 20,
-    ingredients: [
-      '1 Cup Rice',
-      '1/4 Cup Urad Dal',
-      'Water',
-      'Salt'
-    ],
+    ingredients: ['1 Cup Rice', '1/4 Cup Urad Dal', 'Water', 'Salt'],
     steps: [
       'Soak rice and urad dal overnight.',
       'Grind into a smooth batter with water.',
@@ -2233,12 +2156,7 @@ const dummyMeals = [
     imageUrl:
         'https://yummy-valley.com/wp-content/uploads/2024/01/millet-idli.webp',
     duration: 20,
-    ingredients: [
-      '1 Cup Rice',
-      '1/2 Cup Urad Dal',
-      'Water',
-      'Salt'
-    ],
+    ingredients: ['1 Cup Rice', '1/2 Cup Urad Dal', 'Water', 'Salt'],
     steps: [
       'Soak rice and urad dal overnight.',
       'Grind into a smooth batter with water.',
@@ -2608,8 +2526,7 @@ const dummyMeals = [
     title: 'Watermelon Feta Salad with Mint',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl:
-        'https://toriavey.com/images/2011/06/IMG_9502-2-1.jpg',
+    imageUrl: 'https://toriavey.com/images/2011/06/IMG_9502-2-1.jpg',
     duration: 15,
     ingredients: [
       '2 Cups Watermelon, cubed',
