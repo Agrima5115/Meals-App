@@ -2,6 +2,7 @@ enum Complexity {
   simple,
   challenging,
   hard,
+  medium,
 }
 
 enum Affordability {
